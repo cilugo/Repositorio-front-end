@@ -1,1 +1,1 @@
-Repositório voltado para as atividades de front-end, de André Olímpio.
+Repositório voltado para as atividades de front-end, dadas por André Olímpio.
