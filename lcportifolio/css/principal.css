@@ -419,6 +419,13 @@
     align-items: center;
 }
 /*sistema de colunas alinhadas*/
+.grupocoluna-l {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    margin: 30px;
+}
+
 .grupocoluna-h {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
