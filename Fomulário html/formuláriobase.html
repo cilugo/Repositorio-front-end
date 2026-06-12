@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulários</title>
+    <style>
+        body{
+            background-color: rgb(177, 173, 167);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Preencha as informações:</legend>
+            <label for="Nome">Nome</label>
+            <input type="text" id="Nome" required minlength="3" maxlength="20" placeholder="Nome fd"><br><br>
+            
+            <label for="Email">Email</label>
+            <input type="text" id="Email" required minlength="6" placeholder="nome@domínio.com"><br><br>
+
+            <label for="Senha">Senha</label>
+            <input type="password" id="Senha" required minlength="3" maxlength="8" placeholder="Min. 3 caractéres"><br><br>
+
+            <label for="título">Produtos de interesse</label><br>
+            <label for="Kindle">Kindle</label>
+            <input type="checkbox" id="Kindle"><br>
+            <label for="VR Headset">VR Headset</label>
+            <input type="checkbox" id="VR Headset"><br>
+            <label for="Carregador">Carregador</label>
+            <input type="checkbox" id="Carregador"><br>
+            <label for="Teclado">Teclado</label>
+            <input type="checkbox" id="Teclado"><br>
+            <label for="Sensor">Sensor</label>
+            <input type="checkbox" id="Sensor"><br><br>
+
+
+            <label for="Produtos">Qual dos produtos você escolheria:</label><br>
+
+            <label for="TV">TV</label>
+            <input type="radio" id="TV" name="Produtos"><br>
+            <label for="Headset">Headset</label>
+            <input type="radio" id="Headset" name="Produtos"><br>
+            <label for="Mouse">Mouse</label>
+            <input type="radio" id="Mouse" name="Produtos"><br>
+            <label for="Cadeira">Cadeira</label>
+            <input type="radio" id="Cadeira" name="Produtos"><br><br>
+
+            <label for="texto">Comentários:</label><br>
+            <textarea id="texto" rows="3" cols="25"></textarea><br><br>
+
+            <label for="Residentes">Quantas pessoas moram na sua casa?</label><br>
+            <select id="Residentes">
+                <option value="1">1</option>
+                <option value="2-3">2-3</option>
+                <option value="4-5">4-5</option>
+                <option value="6-7">6-7</option>
+                <option value="8+">8+</option>
+            </select>
+                
+            
+            <br><input type="submit" value="Enviar"><input type="reset" value="Resetar">
+        </fieldset>
+    </form>
+</body>
+</html>
